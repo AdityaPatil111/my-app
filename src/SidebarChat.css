@@ -9,6 +9,10 @@
     /* background-color: rgb(131, 190, 121); */
     background-color:#c8e6c9;
 }
+a{
+    text-decoration: none;
+    color: black;
+}
 .sidebarChat_Info >h2{
     font-size: 16px;
     margin-bottom: 8px;
