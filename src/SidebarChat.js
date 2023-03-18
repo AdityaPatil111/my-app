@@ -5,11 +5,13 @@ import './SidebarChat.css';
 import axios from "axios";
 import {Link} from "react-router-dom";
 
+
 export default function SidebarChat({addNewChat,name,id}) {
   // const [seed,setSeed]=useState("");
   // useEffect(()=>{
   //   setSeed(Math.floor(Math.random()*5000));
   // },[]);
+ 
   const createChat= async () => {
     const roomName = prompt("Please enter name for the group");
     if(roomName){
@@ -28,7 +30,7 @@ export default function SidebarChat({addNewChat,name,id}) {
         <Avatar src={`https://api.dicebear.com/4.x/adventurer/svg`}/>
         <div className='sidebarChat_Info'>
               <h2>{name}</h2>
-              {/* <p>THis is last name</p> */}
+              {/* <p></p> */}
         </div>
       </div>
     </Link>

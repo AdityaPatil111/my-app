@@ -101,18 +101,6 @@ export default function Chat() {
 
 {/* </div> */} 
 
-            {/* <p className='chat_message'>
-               <span className='chat_name'>Sonny</span>
-               This is message
-               <span className='chat_timestamp'>{new
-               Date().toUTCString()}</span>
-            </p> */}
-            {/* <p className='chat_message chat_reciever'>
-               <span className='chat_name'>Sonny</span>
-               This is message
-               <span className='chat_timestamp'>{new
-               Date().toUTCString()}</span>
-            </p> */}
       </div>
 
        {roomName && < div className='chat_footer'>
@@ -128,11 +116,3 @@ export default function Chat() {
   )
 }
 
-// export default function Chat(){
-//    return(
-//          <div>
-//             <h1>Chat</h1>
-
-//          </div>
-//    );
-// };
